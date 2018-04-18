@@ -1,4 +1,8 @@
 %Gillespie SSA for Michaelis-Menten System
+
+%%Hits an error when species reaches 0, needs a while loop to quit once subtrate has ran out. Could
+% do with rewriting as a proper function
+
 maxN=10^4;
 X=[100;100;0;0];
 k=[10,5,5]; %Rate Constants
